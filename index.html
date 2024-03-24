@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>spotify clone</title>
+    <link rel = "stylesheet" href="spoticolor.css">
+    
+</head>
+<body>
+    <nav >
+        <ul>
+            <li class = " brand"><img src="logo.png" alt = "logo"><p>Spotify</p></li>
+            <li>home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class = "container">
+        <div class="songlist">
+        <h1> best of no copyright Sounds</h1>
+    <div class = "songitemcontainer">
+        <div class = "songItem">
+            <img src = "10.jpg" alt = "1">
+            <span> Let me love you</span>
+            <span id = "songlistplay" style="margin-left: 12px;">05:34 </span>
+            <img class = "songpause" onclick="bajao()" src = "new pauseicons8-play-24.png"  alt ="pause" style="height: 28px;"> 
+        </div>
+        <div class = "songItem">
+            <img src = "10.jpg" alt = "1">
+            <span> Let me love you</span>
+            <span id = "songlistplay" style="margin-left: 12px;">05:34 </span>
+            <img class = "songpause" onclick="bjao2()" src = "new pauseicons8-play-24.png"  alt ="pause" style="height: 28px;"> 
+        </div>
+        <div class = "songItem">
+            <img src = "10.jpg" alt = "1">
+            <span> Let me love you</span>
+            <span id = "songlistplay" style="margin-left: 12px;">05:34 </span>
+            <img class = "songpause"  onclick="bjao3()" src = "new pauseicons8-play-24.png"  alt ="pause" style="height: 28px;"> 
+        </div>
+        <div class = "songItem">
+            <img src = "10.jpg" alt = "1">
+            <span> Let me love you</span>
+            <span id = "songlistplay" style="margin-left: 12px;">05:34 </span>
+            <img class = "songpause" onclick="bjao4()" src = "new pauseicons8-play-24.png"  alt ="pause" style="height: 28px;"> 
+        </div>
+        <div class = "songItem">
+            <img src = "10.jpg" alt = "1">
+            <span> Let me love you</span>
+            <span id = "songlistplay" style="margin-left: 12px;">05:34 </span>
+            <img class = "songpause" onclick="bjao5()" style="height: 28px;" src = "new pauseicons8-play-24.png"  alt ="pause" > 
+        </div>
+
+        
+    </div>      
+    </div>
+        <div class="songbanner"></div>
+    </div>
+        <div class="bottom">
+            <input type = "range" name ="range" id  = "myprogressbar" min="0" value="0" max="100">
+            <div class="icon">
+                <img class = "reverse" src="left button icons8-rewind-button-round-48.png" alt = "prev">
+               <img id = "masterplay" class = "pause" src = "new pause icons8-play-48.png"  alt ="pause" >
+                
+              <img class  = "next" src="right button icons8-fast-forward-round-48.png" alt = "next">
+
+            </div>
+            <div class="songinfo">
+                <img src="playing.gif" alt="sound effect" id="gif" height="12px">Let me love you
+            </div>
+        </div>
+        <script src="spo.js"></script>
+</body>
+
+</html>
